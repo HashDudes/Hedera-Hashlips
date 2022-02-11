@@ -6,19 +6,19 @@
 
 2) Open CMD (Command Prompt on Windows) or Terminal (Mac) and install the git package - copy and paste line below into CMD
 
-    git clone https://github.com/HashDudes/Hedera-Hashlips.git
+        git clone https://github.com/HashDudes/Hedera-Hashlips.git
 
 -------------------------------------------------------------------------
 
 3) Then enter into the folder you just cloned using:
 
-    cd hedera-hashlips
+        cd hedera-hashlips
 
 -------------------------------------------------------------------------
 
 4) Now that you are in the Hedera-Hashlips folder, install the packages using the command below:
 
-    npm install 
+        npm install 
 
 -------------------------------------------------------------------------
 
@@ -28,9 +28,9 @@
 
 6) FIRST! Add your layers into the folder within the Hedera-Hashlips folder called "layers". Each folder in the layers folder will represent one layer of traits. Ex. Background, Donut, Icing, Sprinkles.
 
-        Setting rarities is done by renaming your trait image files in the layers folders. Each trait should have a file name as such -> vanilla#10.png 
+    Setting rarities is done by renaming your trait image files in the layers folders. Each trait should have a file name as such -> vanilla#10.png 
 
-        The number after the # will determine how often the generator will select that trait. If you set one background blue#1.png and another red#100.png , there will be many more red backgrounds then blue. This does not mean there will be 100 red and 1 blue, but instead represents a weighted number within the folder.
+    The number after the # will determine how often the generator will select that trait. If you set one background blue#1.png and another red#100.png , there will be many more red backgrounds then blue. This does not mean there will be 100 red and 1 blue, but instead represents a weighted number within the folder.
 
 -------------------------------------------------------------------------
 
@@ -48,7 +48,7 @@
 
 10) Once you are in the Hedera-Hashlips folder run the command below to start gen or gen + mint:
 
-    node index
+        node index
 
 -------------------------------------------------------------------------
 
