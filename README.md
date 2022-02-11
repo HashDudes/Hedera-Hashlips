@@ -56,6 +56,10 @@
 
 -------------------------------------------------------------------------
 
+11) You can find your newly generated images and json data in the folder Hedera-Hashlips -> Build
+
+-------------------------------------------------------------------------
+
 Joing our discord or email us if you have any questions! :)
 
 Discord: https://discord.gg/WzNj2t3CRj
