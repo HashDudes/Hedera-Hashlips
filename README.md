@@ -16,7 +16,7 @@
 
 -------------------------------------------------------------------------
 
-4) Now that you are in the folder Hedera-Hashlips install the packages:
+4) Now that you are in the Hedera-Hashlips folder, install the packages using the command below:
 
     npm install 
 
