@@ -28,6 +28,10 @@
 
 6) FIRST! Add your layers into the folder within the Hedera-Hashlips folder called "layers". Each folder in the layers folder will represent one layer of traits. Ex. Background, Donut, Icing, Sprinkles.
 
+Setting rarities is done by renaming you trait image files in the layers folders. Each trait should have a file name as such -> vanilla#10.png 
+
+The number after the # will determine how often the generator will select that trait. If you set one background blue#1.png and another red#100.png , there will be many more red backgrounds then blue. This does not mean there will be 100 red and 1 blue, but instead represents a weighted number within the folder.
+
 -------------------------------------------------------------------------
 
 7) SECOND! Go to the folder on your computer Hedera-Hashlips -> then go into the folder "src" -> Open the file config.js with any text editor. Follow the steps in the file and make sure you fill out all of the sections. If you wish to Mint while you generate set the "mint" variable to true
