@@ -22,7 +22,7 @@
 
 -------------------------------------------------------------------------
 
-5) At this point the program is ready to be run - Time to configure for your project!
+5) At this point the software is ready to go! - Time to configure for your project!
 
 -------------------------------------------------------------------------
 
