@@ -24,7 +24,7 @@
 
 5) At this point the software is ready to go! - Time to configure for your project!
 
-*(Optional) To test that everything is correct run the code below and you should seem the test layers generate (Generated images will be in the folder Hedera-Hashlips -> Build)
+*(Optional) To test that everything is correct, run the code below and you should seem the test layers generate (Generated images will be in the folder Hedera-Hashlips -> Build)
 
         node index
 
