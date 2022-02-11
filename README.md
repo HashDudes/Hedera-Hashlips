@@ -4,7 +4,7 @@
 
 -------------------------------------------------------------------------
 
-2) Open CMD (Command Prompt on Windows) or Terminal (Mac) and install the git package - copy and paste line below into CMD
+2) Open CMD (Command Prompt on Windows) or Terminal (Mac) and install the git package - copy and paste line below into your terminal
 
         git clone https://github.com/HashDudes/Hedera-Hashlips.git
 
