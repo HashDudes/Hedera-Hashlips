@@ -46,7 +46,7 @@ const {
   nftStorageAPI,
   maxSupply,
   useAdditionalData,
-} = require(path.join(basePath, "/src/configAdmin.js"));
+} = require(path.join(basePath, "/src/config.js"));
 const canvas = createCanvas(format.width, format.height);
 const ctx = canvas.getContext("2d");
 var metadataList = [];
