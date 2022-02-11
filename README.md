@@ -24,6 +24,10 @@
 
 5) At this point the software is ready to go! - Time to configure for your project!
 
+*(Optional) To test that everything is correct run the code below and you should seem the test layers generate
+
+        node index
+
 -------------------------------------------------------------------------
 
 6) FIRST! Add your layers into the folder within the Hedera-Hashlips folder called "layers". Each folder in the layers folder will represent one layer of traits. Ex. Background, Donut, Icing, Sprinkles.
