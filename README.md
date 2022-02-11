@@ -26,7 +26,7 @@
 
 -------------------------------------------------------------------------
 
-6) FIRST! Add your layers into the folder in Hedera-Hashlips folder called "layers". Each folder in the layers folder will represent one layer of traits. Ex. Background, Donut, Icing, Sprinkles.
+6) FIRST! Add your layers into the folder within the Hedera-Hashlips folder called "layers". Each folder in the layers folder will represent one layer of traits. Ex. Background, Donut, Icing, Sprinkles.
 
 -------------------------------------------------------------------------
 
