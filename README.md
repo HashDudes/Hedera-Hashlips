@@ -34,7 +34,7 @@
 
 -------------------------------------------------------------------------
 
-7) SECOND! Go to the folder on your computer Hedera-Hashlips -> then go into the folder "src" -> Open the file config.js with any text editor. Follow the steps in the file and make sure you fill out all of the sections. If you wish to Mint while you generate set the "mint" variable to true
+7) Go to the folder on your computer Hedera-Hashlips -> then go into the folder "src" -> Open the file config.js with any text editor. Follow the steps in the file and make sure you fill out all of the sections. If you wish to Mint while you generate set the "mint" variable to true
 
 -------------------------------------------------------------------------
 
