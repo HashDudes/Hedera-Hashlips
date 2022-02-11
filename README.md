@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------
 
-1) Install nodejs package -> https://nodejs.org/en/
+1) Before doing anything, make sure you install nodejs package -> https://nodejs.org/en/
 
 -------------------------------------------------------------------------
 
-2) Open CMD or Terminal and install the git package - copy and paste line below into CMD
+2) Open CMD (Command Prompt on Windows) or Terminal (Mac) and install the git package - copy and paste line below into CMD
 
     git clone https://github.com/HashDudes/Hedera-Hashlips.git
 
