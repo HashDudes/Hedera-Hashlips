@@ -2,6 +2,14 @@
 
 1) Before doing anything, make sure you install nodejs package -> https://nodejs.org/en/
 
+If on Mac you may need to update to latest version of Node using the code below in the terminal:
+
+        npm install n -g
+
+and then
+
+        sudo n stable
+
 -------------------------------------------------------------------------
 
 2) Open CMD (Command Prompt on Windows) or Terminal (Mac) and install the git package - copy and paste line below into your terminal
