@@ -6,19 +6,19 @@
 
 2) Open CMD or Terminal and install the git package - copy and paste line below into CMD
 
-git clone https://github.com/HashDudes/Hedera-Hashlips.git
+    git clone https://github.com/HashDudes/Hedera-Hashlips.git
 
 -------------------------------------------------------------------------
 
 3) Then enter into the folder you just cloned using:
 
-cd hedera-hashlips
+    cd hedera-hashlips
 
 -------------------------------------------------------------------------
 
 4) Now that you are in the folder Hedera-Hashlips install the packages:
 
-npm install 
+    npm install 
 
 -------------------------------------------------------------------------
 
@@ -44,7 +44,7 @@ npm install
 
 10) Once you are in the Hedera-Hashlips folder run the command below to start gen or gen + mint:
 
-node index
+    node index
 
 -------------------------------------------------------------------------
 
