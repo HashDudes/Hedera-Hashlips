@@ -254,7 +254,7 @@ function shuffle(array) {
 }
 
 const createToken = async () => {
-  const client = Client.forTestnet();
+  const client = Client.forMainnet();
   const UserPrivateKey = PrivateKey.fromString(operatorPrivateKey);
   client.setOperator(operatorID, UserPrivateKey);
 
@@ -399,7 +399,7 @@ const startCreating = async () => {
             const storeBlob = await client.storeBlob(newBlob);
             const metadataURL = "https://cloudflare-ipfs.com/ipfs/" + storeBlob;
 
-            const client2 = Client.forTestnet();
+            const client2 = Client.forMainnet();
             const UserPrivateKey = PrivateKey.fromString(operatorPrivateKey);
             client2.setOperator(operatorID, UserPrivateKey);
 
