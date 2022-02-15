@@ -6,6 +6,8 @@ const { Client,
   PrivateKey,
   TokenSupplyType,
   TokenType,
+  Hbar,
+  CustomFixedFee,
   CustomRoyaltyFee,
   TokenInfoQuery
 } = require("@hashgraph/sdk");
@@ -25,6 +27,7 @@ const layersDir = path.join(basePath, "/layers");
 console.log(path.join(basePath, "/src/config.js"));
 const {
   mint,
+  fallbackFee,
   setRoyalty,
   royaltyDen,
   royaltyNum,
@@ -251,7 +254,7 @@ function shuffle(array) {
 }
 
 const createToken = async () => {
-  const client = Client.forMainnet();
+  const client = Client.forTestnet();
   const UserPrivateKey = PrivateKey.fromString(operatorPrivateKey);
   client.setOperator(operatorID, UserPrivateKey);
 
@@ -259,6 +262,7 @@ const createToken = async () => {
     let nftCustomFee = await new CustomRoyaltyFee()
       .setNumerator(royaltyNum)
       .setDenominator(royaltyDen)
+      .setFallbackFee(new CustomFixedFee().setHbarAmount(new Hbar(fallbackFee)))
       .setFeeCollectorAccountId(royaltyCollector);
       
     var nftCreate = await new TokenCreateTransaction()
@@ -395,7 +399,7 @@ const startCreating = async () => {
             const storeBlob = await client.storeBlob(newBlob);
             const metadataURL = "https://cloudflare-ipfs.com/ipfs/" + storeBlob;
 
-            const client2 = Client.forMainnet();
+            const client2 = Client.forTestnet();
             const UserPrivateKey = PrivateKey.fromString(operatorPrivateKey);
             client2.setOperator(operatorID, UserPrivateKey);
 

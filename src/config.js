@@ -63,7 +63,8 @@ const tokenSymbol = "DUDE";
 const setRoyalty = true;
 const royaltyNum = "1";
 const royaltyDen = "20";
-const royaltyCollector = "0.0.xxxxxx";//Set as Hedera Account that royalties will be paid out to. 
+const royaltyCollector = "0.0.xxxxxx";//Set as Hedera Account that royalties will be paid out to.
+const fallbackFee = 5;//Fallback fee - in Hbar 
 
 
 //--------------------------------------------------END CONFIGURATION AREA--------------------------------------------
@@ -81,6 +82,7 @@ const preview = {thumbPerRow: 5,thumbWidth: 50,imageRatio: format.width / format
 
 module.exports = {
   setRoyalty,
+  fallbackFee,
   mint,
   royaltyCollector,
   royaltyDen,
