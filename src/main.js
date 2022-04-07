@@ -25,6 +25,7 @@ const { createCanvas, loadImage } = require(path.join(
 const buildDir = path.join(basePath, "/build");
 const layersDir = path.join(basePath, "/layers");
 console.log(path.join(basePath, "/src/config.js"));
+
 const {
   mint,
   fallbackFee,
@@ -50,6 +51,7 @@ const {
   maxSupply,
   useAdditionalData,
 } = require(path.join(basePath, "/src/config.js"));
+
 const canvas = createCanvas(format.width, format.height);
 const ctx = canvas.getContext("2d");
 var metadataList = [];
@@ -136,11 +138,12 @@ const addMetadata = (_dna, _edition) => {
   let dateTime = Date.now();
   let tempMetadata = {
     edition: _edition,
-    name: `${useAdditionalData ? addedData[_edition -1] : nftName +' #'+ _edition}`,
+    name: nftName,
     creator: creator,
     category: category,
     description: description,
-    image: `IPFS://CID_GOES_HERE/${_edition}.png`,
+    edition: _edition,
+    image: `${_edition}.png`,
     attributes: attributesList,
   };
   metadataList.push(tempMetadata);
@@ -151,11 +154,11 @@ const addNewMeta = (_dna, _edition) => {
   let dateTime = Date.now();
   let tempMetadata = {
     edition: _edition,
-    name: `${useAdditionalData ? addedData[_edition -1] : nftName +' #'+ _edition}`,
+    name: nftName,
     creator: creator,
     category: category,
     description: description,
-    image: `IPFS://CID_GOES_HERE/${_edition}.png`,
+    image: `${_edition}.png`,
     attributes: attributesList,
   };
   metadataList.push(tempMetadata);
